@@ -1,5 +1,23 @@
 site_name: Dashboards Mexico
-nav:
+repo_url: https://github.com/JesusMelendez/mexico_documentation/
+nav: 
   - Home: index.md
-  - About: about.md
-theme: readthedocs
+  - Versions : versions.md
+  - User Guide:
+    - Guide for specific version update:
+      - Version 1 : version_one.md
+      - Version 2 : version_two.md
+      - Experimental version : experimental.md
+theme:
+   name: 'material'
+   palette:
+        primary: 'green'
+plugins:
+    - search
+    - pdf-export
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
