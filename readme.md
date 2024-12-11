@@ -1,3 +1,7 @@
+#### Bienvenido a la documentación de tableros
+
+![doc](./dashboards/docs/img/documentacion_1.png)
+
 
 1. Clonar el repo
 2. Una vez clonado, crear ambiente virtual
@@ -34,3 +38,4 @@ Ya con todas las dependencias necesarias. Entramos al directorio   **dashboards*
 mkdocs serve
 ```
 
+![doc_2](./dashboards/docs/img/documentacion_2.png)
