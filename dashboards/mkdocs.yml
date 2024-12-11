@@ -14,7 +14,6 @@ theme:
         primary: 'green'
 plugins:
     - search
-    - pdf-export
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
